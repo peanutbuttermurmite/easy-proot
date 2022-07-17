@@ -1,3 +1,3 @@
 #!/bin/bash
 chmod +x ./proot
-./proot -S assets
+./proot -S assets . ./assets/etc/skel/.bashrc
