@@ -1,6 +1,6 @@
 Name: adduser/homedir-permission
 Template: adduser/homedir-permission
-Value: false
+Value: true
 Owners: adduser
 
 Name: adduser/title
@@ -111,16 +111,8 @@ Name: glibc/upgrade
 Template: glibc/upgrade
 Owners: libc6, libc6:amd64
 
-Name: libpam-modules/deprecate-tally
-Template: libpam-modules/deprecate-tally
-Owners: libpam-modules
-
 Name: libpam-modules/disable-screensaver
 Template: libpam-modules/disable-screensaver
-Owners: libpam-modules
-
-Name: libpam-modules/profiles-disabled
-Template: libpam-modules/profiles-disabled
 Owners: libpam-modules
 
 Name: libpam-runtime/conflicts
@@ -162,13 +154,5 @@ Owners: libpam0g:amd64
 
 Name: libraries/restart-without-asking
 Template: libraries/restart-without-asking
-Owners: libc6, libc6:amd64, libpam0g:amd64, libssl3:amd64
-
-Name: libssl3/restart-failed
-Template: libssl3/restart-failed
-Owners: libssl3:amd64
-
-Name: libssl3/restart-services
-Template: libssl3/restart-services
-Owners: libssl3:amd64
+Owners: libc6, libc6:amd64, libpam0g:amd64
 

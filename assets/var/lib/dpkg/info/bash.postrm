@@ -17,8 +17,8 @@ case "$1" in
 	;;
 esac
 
-# Automatically added by dh_installmenu/13.5.2ubuntu1
-if [ -x "`command -v update-menus`" ]; then update-menus ; fi
+# Automatically added by dh_installmenu/12.10ubuntu1
+if [ -x "`which update-menus 2>/dev/null`" ]; then update-menus ; fi
 # End automatically added section
 
 
