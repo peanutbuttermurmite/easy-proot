@@ -3219,3 +3219,12 @@
 2024-02-21 17:47:46 trigproc ca-certificates:all 20230311ubuntu0.20.04.1 <none>
 2024-02-21 17:47:46 status half-configured ca-certificates:all 20230311ubuntu0.20.04.1
 2024-02-21 17:47:51 status installed ca-certificates:all 20230311ubuntu0.20.04.1
+2024-02-21 17:56:35 startup archives unpack
+2024-02-21 17:56:35 install libssl-dev:amd64 <none> 1.1.1f-1ubuntu2.21
+2024-02-21 17:56:35 status half-installed libssl-dev:amd64 1.1.1f-1ubuntu2.21
+2024-02-21 17:56:36 status unpacked libssl-dev:amd64 1.1.1f-1ubuntu2.21
+2024-02-21 17:56:36 startup packages configure
+2024-02-21 17:56:36 configure libssl-dev:amd64 1.1.1f-1ubuntu2.21 <none>
+2024-02-21 17:56:36 status unpacked libssl-dev:amd64 1.1.1f-1ubuntu2.21
+2024-02-21 17:56:36 status half-configured libssl-dev:amd64 1.1.1f-1ubuntu2.21
+2024-02-21 17:56:36 status installed libssl-dev:amd64 1.1.1f-1ubuntu2.21
