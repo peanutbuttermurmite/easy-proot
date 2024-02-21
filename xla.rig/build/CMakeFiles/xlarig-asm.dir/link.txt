@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxlarig-asm.a  CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o CMakeFiles/xlarig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o
+/usr/bin/ranlib libxlarig-asm.a
