@@ -95,7 +95,7 @@ tie %Config, 'Config', {
     inc_version_list => '',
     intsize => '4',
     ldlibpthname => 'LD_LIBRARY_PATH',
-    libpth => '/usr/local/lib /usr/lib/gcc/x86_64-linux-gnu/9/include-fixed /usr/include/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /lib',
+    libpth => '/usr/local/lib /usr/include/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /lib',
     osname => 'linux',
     osvers => '4.19.0',
     path_sep => ':',
